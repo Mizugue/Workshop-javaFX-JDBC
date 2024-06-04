@@ -13,6 +13,7 @@ import javafx.scene.control.*;
 import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import model_services.DepartmentService;
 
 import java.io.IOException;
 import java.net.URL;
