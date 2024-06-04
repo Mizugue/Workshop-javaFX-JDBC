@@ -6,6 +6,7 @@ module app.javafx.project {
     requires com.dlsc.formsfx;
     requires net.synedra.validatorfx;
     requires org.kordamp.ikonli.javafx;
+    requires java.sql;
 
     exports app.javafx.project;
     opens app.javafx.project to javafx.fxml;
