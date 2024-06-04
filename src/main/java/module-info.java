@@ -7,6 +7,6 @@ module app.javafx.project {
     requires net.synedra.validatorfx;
     requires org.kordamp.ikonli.javafx;
 
-    opens app.javafx.project to javafx.fxml;
     exports app.javafx.project;
+    opens app.javafx.project to javafx.fxml;
 }
