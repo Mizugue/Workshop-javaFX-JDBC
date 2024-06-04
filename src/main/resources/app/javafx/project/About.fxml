@@ -4,7 +4,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <TextArea prefHeight="599.0" prefWidth="600.0" text="               &#10;                       ❓&#10;&#10;                    ABOUT: &#10;&#10;               Just a program in &#10;                java with javaFX &#10;                   and JDBC. &#10;&#10;                     By mzg....">
