@@ -6,8 +6,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.ResourceBundle;
 import exceptions.ValidationException;
-
-
 import gui_utils.Alerts;
 import gui_utils.Constraints;
 import gui_utils.DataChangeListener;
@@ -20,7 +18,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import model.entities.Department;
-import model.services.DepartmentService;
+import model_services.DepartmentService;
 
 public class DepartmentFormController implements Initializable {
 
@@ -129,4 +127,6 @@ public class DepartmentFormController implements Initializable {
             labelErrorName.setText(errors.get("name"));
         }
     }
+
+
 }
