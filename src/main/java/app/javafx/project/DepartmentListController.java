@@ -7,8 +7,6 @@ import java.util.Optional;
 import java.util.ResourceBundle;
 
 
-import app.javafx.project.DepartmentFormController;
-import app.javafx.project.Main;
 import db.DbIntegrityException;
 import gui_utils.*;
 import javafx.beans.property.ReadOnlyObjectWrapper;
@@ -76,7 +74,7 @@ public class DepartmentListController implements Initializable, DataChangeListen
 		tableColumnId.setCellValueFactory(new PropertyValueFactory<>("id"));
 		tableColumnName.setCellValueFactory(new PropertyValueFactory<>("name"));
 
-		Stage stage = (Stage) Main.getMainScene().getWindow();
+		Stage stage = (Stage) MainViewController.getMainScene().getWindow();
 		tableViewDepartment.prefHeightProperty().bind(stage.heightProperty());
 	}
 

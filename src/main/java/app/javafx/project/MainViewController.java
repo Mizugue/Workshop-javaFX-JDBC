@@ -8,11 +8,11 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 
-public class Main extends Application {
+public class MainViewController extends Application {
     private static Scene mainScene;
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("MainView.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(MainViewController.class.getResource("MainView.fxml"));
         mainScene = new Scene(fxmlLoader.load());
         stage.setTitle("Javafx App");
         stage.setScene(mainScene);

@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.TextArea?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+
+<VBox prefHeight="204.0" prefWidth="352.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1">
    <children>
-      <TextArea prefHeight="599.0" prefWidth="600.0" text="               &#10;                       ❓&#10;&#10;                    ABOUT: &#10;&#10;               Just a program in &#10;                java with javaFX &#10;                   and JDBC. &#10;&#10;                     By mzg....">
+      <Label text="About">
          <font>
-            <Font name="Footlight MT Light" size="37.0" />
+            <Font name="System Bold" size="18.0" />
          </font>
-      </TextArea>
+         <padding>
+            <Insets bottom="10.0" left="20.0" top="10.0" />
+         </padding>
+      </Label>
+      <Label text="JavaFX application demo">
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </Label>
    </children>
 </VBox>
